@@ -1,6 +1,7 @@
 //Write a JavaScript program for convert all array element in ASCII value.
 
+const array = ["a", "b", "c", "d", "e", "f", "g"];
 
-const arr = ["a", "b", "c", "d", "e"];
 
-document.getElementById("text").innerHTML = (arr.map(x => x.charCodeAt(0)));
+let convert = array.map((ele) => ele.charCodeAt(0));
+document.getElementById("text").innerHTML = (convert);

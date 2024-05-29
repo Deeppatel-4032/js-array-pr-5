@@ -11,19 +11,32 @@
 
 //join method
 const myColor = ["Red", "Green", "White", "Black"];
-document.getElementById("text").innerHTML = myColor.join(",");
-document.getElementById("text1").innerHTML = myColor.join("+");
+
+const fastArray = myColor.join(",");
+
+document.getElementById("text").innerHTML = fastArray;
+console.log(fastArray);
+
+//join method
+const myColor1 = ["Red", "Green", "White", "Black"];
+
+const fastArray1 = myColor1.join("+");
+
+document.getElementById("text1").innerHTML = fastArray1;
+console.log(fastArray1);
+
+
 
 //pop method
 const myColor2 = ["Red", "Green", "White", "Black"];
 
 myColor2.pop();
-document.getElementById("text2").innerHTML = (myColor2);
+document.getElementById("text2").innerHTML = myColor2;
 
 //shift method
 const myColor3 = ["Red", "Green", "White", "Black"];
 
-const fastArray = myColor3.shift();
+const fastArray2 = myColor3.shift();
 document.getElementById("text3").innerHTML = (fastArray);
 
 
