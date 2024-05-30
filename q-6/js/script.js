@@ -6,3 +6,4 @@ const array = [2, 5, 6, 3, 8, 9];
 let square = array.map((ele) => ele * ele);
 
 document.getElementById("text").innerHTML = (square);
+console.log(square);

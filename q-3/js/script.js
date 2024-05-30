@@ -19,3 +19,5 @@ const findMaxMin = (arr) => {
 findMaxMin(arr);
 
 document.getElementById("text").innerHTML = (`Maximum value is : ${max} <br> Minimum value is : ${min}`);
+console.log(`Maximum value is : ${max}`);
+console.log(`Minimum value is : ${min}`);

@@ -4,16 +4,26 @@
 //x = "A New Java Book"; 
 
 
-
 const word = "airplane";
 let char = word.slice(2, 3);
-document.getElementById("text").innerHTML = (char);
+document.getElementById("text").innerHTML = (`${char} <br>`);
+console.log(char);
 
+//x = "oxoxoxox";    output:- "oXoXoXoX"
 const word1 = "oxoxoxox";
-let char1 = word1.slice(2, 4);
-document.getElementById("text1").innerHTML = (char1);
 
-const word2 = "A New Java Book";
-let char2 = word2.slice(2, 4);
-document.getElementById("text2").innerHTML = (char2);
+let char1 = word1.replaceAll("x", "X");
+
+document.getElementById("text1").innerHTML = (`${char1} <br>`);
+console.log(char1);
+
+//x = "A New Java Book"; 
+
+
+const word2 =  "A New Java Book";
+const word3 = "A NEW JAVA BOOK";
+
+console.log (word2.concat(" , ", word3));
+
+
 
